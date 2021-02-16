@@ -1,0 +1,70 @@
+#pages {
+    background-image: url(../img/rb.jpg); height 10%;  background-size: cover; 
+    text-align: center; 
+    padding: 10%;
+    background-repeat: no-repeat;
+    width: auto;
+}
+div {
+    background: rgba(188, 216, 188, 0.3) /* Green background with 10% opacity */
+  }
+  
+h1 {
+    color:white;
+    font-size: 45px;
+}
+
+
+/*This are buttons*/
+
+ul,li {
+    list-style: none;
+    display: inline;
+    word-spacing: 1pt;
+    list-style-type: none;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.button {
+    text-decoration: none; 
+    color: black; 
+    font-style: italic; 
+    font-size: 15pt;
+    background-size: %;
+    background-color:rgba(255, 255, 255, 0.5);
+    padding: 1%;
+    
+}
+
+.button:hover{
+    color: rgb(0, 255, 98); 
+    background-color: black;
+    padding 1%;
+}
+
+ /*-------*/
+
+ #nav-p {
+     color: white;
+ }
+ .img
+ {
+     height: 5px;
+ }
+
+
+ .zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  

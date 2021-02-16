@@ -1,0 +1,63 @@
+/*  this is for the navigation bar*/
+
+#pages {
+    background-image: url(1.jpg); height 10%;  background-size: cover; 
+    text-align: center; 
+    padding: 10%;
+    background-repeat: no-repeat;
+    width: auto;
+}
+body {
+    background-color: bisque;
+}
+     
+    
+img {
+    opacity: 2;
+  }
+h1 {
+    color:white;
+    font-size: 45px;
+    text-decoration-color: blanchedalmond;
+}
+div {
+    background: rgba(110, 104, 108, 0.3) /* Green background with 10% opacity */
+  }
+
+/*This are buttons*/
+
+ul,li {
+    list-style: none;
+    display: inline;
+    word-spacing: 1pt;
+    list-style-type: none;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.button {
+    text-decoration: none; 
+    color: black; 
+    font-style: italic; 
+    font-size: 15pt;
+    background-size: %;
+    background-color:rgba(255, 255, 255, 0.5);
+    padding: 1%;
+    
+}
+
+.button:hover{
+    color: red; 
+    background-color: black;
+    padding 1%;
+}
+
+ /*-------*/
+
+ #nav-p {
+     color: rgb(235, 207, 207);
+ }
+ .img
+ {
+     height: 5px;
+ }

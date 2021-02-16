@@ -1,0 +1,57 @@
+/*  this is for the navigation bar*/
+
+#pages {
+    background-image: url(../img/co.jpg); height=600x500;  background-size: cover; 
+    text-align: center; 
+    padding: 10%;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+h1 {
+    color:rgb(11, 142, 165);
+    font-size: 45px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+div {
+    background: rgba(188, 216, 188, 0.3) /* Green background with 10% opacity */
+  }
+
+/*This are buttons*/
+
+ul,li {
+    list-style: none;
+    display: inline;
+    word-spacing: 1pt;
+    list-style-type: none;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.button {
+    text-decoration: none; 
+    color: rgb(8, 8, 8); 
+    font-style: italic; 
+    font-size: 15pt;
+    background-size: %;
+    background-color:rgba(255, 255, 255, 0.5);
+    padding: 1%;
+    
+}
+
+.button:hover{
+    color: rgb(214, 201, 16); 
+    background-color: rgb(77, 51, 51);
+    padding 1%;
+}
+
+ /*-------*/
+
+ #nav-p {
+     color: white;
+ }
+ .img
+ {
+     height: 5px;
+ }
